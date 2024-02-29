@@ -1,1 +1,42 @@
-/* Your code here */
+.masthead {
+  display: grid;
+  grid-template-areas:
+  "masthead_menu-and-search . masthead_actions"
+  ". masthead_technologies ."
+  "masthead_date masthead_logo masthead_paper"
+  ;
+}
+
+.masthead_menu-and-search {
+  grid-area: masthead_menu-and-search;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.masthead_actions {
+  grid-area: masthead_actions;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.masthead_technologies {
+  grid-area: masthead_technologies;
+}
+.masthead_date {
+  grid-area: masthead_date;
+}
+.masthead_logo {
+  grid-area: masthead_logo;
+}
+.masthead_paper {
+  grid-area: masthead_paper;
+}
+
+.menu-search-btn {
+  font-size: 11px;
+  padding: 7px 9px;
+}
+
+.menu-search-btn:hover {
+  background-color: #f7f7f5;
+}
