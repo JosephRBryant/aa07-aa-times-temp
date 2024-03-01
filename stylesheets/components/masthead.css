@@ -59,6 +59,11 @@
   border-bottom: 1px solid #e2e2e2;
 }
 
+.masthead_logo img {
+  display: flex;
+  justify-content: center;
+}
+
 .masthead_paper {
   grid-area: masthead_paper;
   font-size: 11px;
@@ -68,6 +73,10 @@
   border-bottom: 1px solid #e2e2e2;
   border-top: 1px solid #e2e2e2;
   padding-bottom: 11px;
+}
+
+.masthead_paper i {
+  margin: 3px;
 }
 
 .menu-search-btn {
